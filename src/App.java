@@ -7,7 +7,7 @@ public class App {
       user.setLastName("Kohn");
       address.setCountry("Brasil");
 
-      System.out.println(user.getFirstName());
+      System.out.println(user.getFirstName() + " " + user.getLastName());
       System.out.println(address.getCountry());
 
         
